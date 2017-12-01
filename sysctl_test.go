@@ -1,7 +1,6 @@
 package sysctl
 
 import (
-	"github.com/labstack/gommon/log"
 	"testing"
 )
 
@@ -38,7 +37,7 @@ func TestFindOneMore(t *testing.T) {
 func TestApply(t *testing.T) {
 	err := Apply("vm.laptop_mode", "1")
 	if err != nil {
-		log.Errorf("Failed to apply kernel settings %v", err.Error())
+		t.Errorf("Failed to apply kernel settings %v", err.Error())
 		return
 	}
 	t.Log("Apply kernel settings successfully")
