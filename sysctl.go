@@ -1,7 +1,7 @@
 package sysctl
 
 import (
-	"log"
+	log "github.com/Sirupsen/logrus"
 	"io/ioutil"
 	"os"
 	"path/filepath"
