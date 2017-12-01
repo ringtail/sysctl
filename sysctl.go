@@ -1,7 +1,7 @@
 package sysctl
 
 import (
-	"github.com/labstack/gommon/log"
+	"log"
 	"io/ioutil"
 	"os"
 	"path/filepath"

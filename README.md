@@ -32,6 +32,8 @@ result:
 		 net.ipv6.neigh.eth0.app_solicit:0]
 ```
 
+---
+
 case2: Find one specific kernel settings
 
 ```
@@ -51,6 +53,8 @@ result:
     map[dev.cdrom.debug:0]
 ```
 
+---
+
 case3: Find one more specific kernel settings
 
 ```
@@ -69,6 +73,8 @@ result:
 ```
     map[vm.laptop_mode:1 dev.cdrom.debug:0]
 ```
+
+---
 
 case4: Apply one kernel settings
 
