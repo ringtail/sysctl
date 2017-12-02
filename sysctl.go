@@ -69,7 +69,7 @@ func walkAndCatFiles(rootPath string) map[string]string {
 			return nil
 		}
 		settings_name := convert_path_to_settings(rootPath)
-		settings[settings_name] = string(bytes)
+		settings[settings_name] = strings.Replace(strings.Trim(string(bytes), "\n"), "\t", " ", -1)
 		return settings
 	} else {
 		files, err := ioutil.ReadDir(rootPath)
