@@ -1,5 +1,9 @@
 # sysctl
-golang wrapper for the sysctl system functions
+[![Build Status](https://travis-ci.org/ringtail/sysctl.svg?branch=master)](https://travis-ci.org/ringtail/sysctl)
+[![Codecov](https://codecov.io/gh/ringtail/sysctl/branch/master/graph/badge.svg)](https://codecov.io/gh/ringtail/sysctl)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)       
+
+sysctl implementation in Go
 
 # Usage Test Cases
 case1: List all system kernel settings
